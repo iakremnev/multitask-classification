@@ -1,2 +1,10 @@
 # multitask-classification
-Analysis of hard parameter sharing scenario in multitask classification problem.
+
+We train 2 DNN classifiers on 2 different datasets and a single multitask classifier and examine their performance.
+
+* Base model: Resnet20.
+* Dataset 1: Fashion MNIST
+* Dataset 2: Imagewoof
+* Metrics: mAP, Confusion Matrix
+
+![](multitask_model.png "Multitask model")
